@@ -1,2 +1,3 @@
 # STM32F7
-Work with STM32F7 32-bit ARM microcontroller with FPU and 2D-accelerator
+Working examples for STM32F7G-Disco board
+Рабочие примеры проектов для платы STM32F7G-Disco
