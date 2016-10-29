@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\Program Files\IAR 7503\common\bin\cspybat" -f "C:\embedded\F7 projects\USB_Highspeed_CustomHID\settings\f7_usb_hs.Debug.general.xcl" --backend -f "C:\embedded\F7 projects\USB_Highspeed_CustomHID\settings\f7_usb_hs.Debug.driver.xcl" 
+"E:\Program Files\IAR 7503\common\bin\cspybat" -f "C:\embedded\F7 projects\LCD_SDRAM\settings\f7_lcd_sdram.Debug.general.xcl" --backend -f "C:\embedded\F7 projects\LCD_SDRAM\settings\f7_lcd_sdram.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\Program Files\IAR 7503\common\bin\cspybat" -f "C:\embedded\F7 projects\USB_Highspeed_CustomHID\settings\f7_usb_hs.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\embedded\F7 projects\USB_Highspeed_CustomHID\settings\f7_usb_hs.Debug.driver.xcl" 
+"E:\Program Files\IAR 7503\common\bin\cspybat" -f "C:\embedded\F7 projects\LCD_SDRAM\settings\f7_lcd_sdram.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\embedded\F7 projects\LCD_SDRAM\settings\f7_lcd_sdram.Debug.driver.xcl" 
 
 @echo off 
 :end
