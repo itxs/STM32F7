@@ -32,7 +32,7 @@ StopOnThrow=_ 0
 [SWOTraceHWSettings]
 OverrideDefaultClocks=0
 CpuClock=72000000
-ClockAutoDetect=0
+ClockAutoDetect=1
 ClockWanted=2000000
 JtagSpeed=2000000
 Prescaler=36
@@ -47,23 +47,13 @@ ITMportsTermIO=0
 ITMportsLogFile=0
 ITMlogFile=$PROJ_DIR$\ITM.log
 [DebugChecksum]
-Checksum=1152310467
+Checksum=1835783715
 [CodeCoverage]
 Enabled=_ 0
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
-[DriverProfiling]
-Enabled=0
-Mode=3
-Graph=0
-Symbiont=0
-Exclusions=
-[CallStackLog]
-Enabled=0
-[CallStackStripe]
-ShowTiming=1
 [Trace2]
 Enabled=0
 ShowSource=0
@@ -104,6 +94,10 @@ ShowTimeLog=1
 SumEnabled=0
 ShowTimeSum=1
 SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -111,10 +105,16 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
-[Disassemble mode]
-mode=0
-[Breakpoints2]
-Count=0
 [Aliases]
 Count=0
 SuppressDialog=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1

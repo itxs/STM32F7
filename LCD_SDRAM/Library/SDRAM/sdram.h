@@ -1,8 +1,7 @@
 #ifndef __SDRAM_H
 #define __SDRAM_H
 
-#include "fmc.h"
-
+#include "stm32f7xx_hal.h"
 
 #define   SDRAM_OK         ((uint8_t)0x00)
 #define   SDRAM_ERROR      ((uint8_t)0x01)

@@ -2169,9 +2169,6 @@
       <name>$PROJ_DIR$\Init\dma2d.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Init\fmc.c</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\Init\gpio.c</name>
     </file>
     <file>
@@ -2179,6 +2176,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\Init\rcc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Library\SDRAM\sdram.c</name>
     </file>
   </group>
   <group>
@@ -2188,12 +2188,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\Library\LCD\LCDConf.c</name>
-    </file>
-  </group>
-  <group>
-    <name>SDRAM</name>
-    <file>
-      <name>$PROJ_DIR$\Library\SDRAM\sdram.c</name>
     </file>
   </group>
   <file>
