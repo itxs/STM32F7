@@ -5,9 +5,6 @@ DMA2D_HandleTypeDef hDMA2D;
 void DMA2D_Init()
 {
 	__HAL_RCC_DMA2D_CLK_ENABLE(); 
-	
-	//hDMA2D.Init.ColorMode = DMA2D_OUTPUT_ARGB8888;
-	//hDMA2D.Init.Mode = 
 }
 
 void DMA2D_CopyBuffer(uint32_t LayerIndex, void * pSrc, void * pDst, uint32_t xSize, uint32_t ySize, uint32_t OffLineSrc, uint32_t OffLineDst)

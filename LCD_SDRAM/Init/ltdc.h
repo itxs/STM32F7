@@ -14,7 +14,8 @@
 #define XSIZE_PHYS 480
 #define YSIZE_PHYS 272
 
-#define GUI_NUM_LAYERS 2
+#define GUI_NUM_LAYERS		2
+#define MAX_DISPLAY_OBJECTS	255 //8 kB size
 
 #define LCD_LAYER0_FRAME_BUFFER  ((uint32_t*)0xC0200000)
 #define LCD_LAYER1_FRAME_BUFFER  ((uint32_t*)0xC0400000)
