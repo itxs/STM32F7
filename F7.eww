@@ -2,10 +2,22 @@
 
 <workspace>
   <project>
+    <path>$WS_DIR$\USB_Highspeed_FatFS\f7_FatFS.ewp</path>
+  </project>
+  <project>
     <path>$WS_DIR$\LCD_SDRAM\f7_lcd_sdram.ewp</path>
   </project>
   <project>
     <path>$WS_DIR$\USB_Highspeed_CustomHID\f7_usb_hs.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\USB_Highspeed_UVC\f7_usb_hs_uvc.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\LCD_TS\lcd_ts.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\QSPI_RW\qspi_rw.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

@@ -1,0 +1,4 @@
+load STM32F746NGHx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path C:\embedded\F7 projects\keil_usb\RTE\Device\STM32F746NGHx\ 

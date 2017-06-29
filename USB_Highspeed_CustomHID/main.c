@@ -6,7 +6,7 @@ int main(void)
 	RCC_Init();
 	GPIO_Init();
 	USB_Init();
-	
+	HAL_GPIO_WritePin(GPIOK, GPIO_PIN_3, GPIO_PIN_RESET);
 	while (1);
 }
 

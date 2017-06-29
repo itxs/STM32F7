@@ -2,8 +2,6 @@
 #include "stdlib.h"
 #include "math.h"
 
-__IO int i = 0;
-
 int main(void)
 {
 	srand(170);
@@ -16,7 +14,7 @@ int main(void)
 	while (1)
 	{
 		LCD_LL_Line(0, 0, 60, 479, 62, 0xFFFFFF, 255);
-		LCD_LL_Ellipse(0, 120, 120, 80, 0x1FF, 0xFFFFFF, 127);
+		LCD_LL_Ellipse(0, 120, 120, 80, 0x100, 0xFFFFFF, 255);
 	}
 }
 

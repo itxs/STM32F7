@@ -1,0 +1,19 @@
+"--endian=little" 
+
+"--cpu=Cortex-M7" 
+
+"--fpu=VFPv5_SP" 
+
+"-p" 
+
+"E:\Program Files\IAR 7503\arm\CONFIG\debugger\ST\STM32F746NG.ddf" 
+
+"--semihosting" 
+
+"--device=STM32F746NG" 
+
+"--multicore_nr_of_cores=1" 
+
+
+
+

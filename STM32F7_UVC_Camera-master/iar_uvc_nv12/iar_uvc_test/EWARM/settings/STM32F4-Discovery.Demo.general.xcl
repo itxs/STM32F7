@@ -1,0 +1,15 @@
+"E:\Program Files\IAR 7503\arm\bin\armproc.dll" 
+
+"E:\Program Files\IAR 7503\arm\bin\armstlink2.dll" 
+
+"C:\embedded\F7 projects\STM32F7_UVC_Camera-master\iar_uvc_nv12\iar_uvc_test\EWARM\Demo\Exe\STM32F4-Discovery_Demo.out" 
+
+--plugin "E:\Program Files\IAR 7503\arm\bin\armbat.dll" 
+
+--device_macro "E:\Program Files\IAR 7503\arm\config\debugger\ST\STM32F7xx.dmac" 
+
+--flash_loader "E:\Program Files\IAR 7503\arm\config\flashloader\ST\FlashSTM32F756xG.board" 
+
+
+
+
